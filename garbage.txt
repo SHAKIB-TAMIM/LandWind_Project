@@ -1,0 +1,13 @@
+   <section class="container hero-section container-fluid d-flex align-items-center justify-content-between">
+        <div class="container text-start col-lg-6">
+            <h1 class="hero-heading">Buy, Sell & Share - <span class="herocolor">Empowering Students Together</span></h1>
+            <p class="hero-subheading">A student-led marketplace for exchanging secondhand items and sharing academic resources within your university community.</p>
+            <div class="hero-buttons">
+                <a href="{% url 'browse' %}" class="btn btn-primary me-3">Browse Items</a>
+                
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'main/images/pic.jpeg' %}" alt="Students working" class="hero-image" width="100%" height=auto>
+        </div>
+    </section>
