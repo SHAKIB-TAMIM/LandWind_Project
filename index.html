@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landwind</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <script src="main.js"></script>
     <nav class="sticky top-0  w-full border-b-2 border-gray-200 bg-white">
   <div class="mx-auto flex  items-center justify-between px-6 py-3">
     <a href="#" class="flex items-center space-x-2">
@@ -47,17 +49,23 @@
     </div>           
 </div>
 
-<div>
-    <img src="images/brand.jpeg" alt="Picture" class="flex justify-center items-center mx-30  h-10 w-280">
+<div class="grid grid-rows-1 grid-cols-6 gap-8 mt-10 mb-10 mx-20 ">
+    <img src="images/Google.png" alt="Picture">
+    <img src="images/microsoft.png" alt="Picture">
+    <img src="images/spotify.png" alt="Picture">
+    <img src="images/layer1.png" alt="Picture">
+    <img src="images/airbnb.png" alt="Picture">
+    <img src="images/uber.png" alt="Picture">
+
 </div>
 </section>
 
 
-
+<br> <br> <br> <br>
 
 <section  class="py-50  bg-gray-100 ">
     <div class="mx-auto max-w-screen-xl px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    <!-- Text Content -->
+
     <div class="pb-1">
       <h2 class="text-3xl font-bold text-gray-900">Work with tools you already use</h2>
       <p class="mt-4 text-gray-600">
@@ -74,10 +82,7 @@
         <li class="flex items-center space-x-2">
           <img class="h-4 w-4" src="images/Tik.jpeg" alt="check">
           <span>Knowledge management</span></li>
-        <!-- <li class="flex items-center space-x-2">
-  <span class="flex items-center justify-center w-3 h-3 rounded-full bg-blue-600 text-white text-sm">✔</span>
-  <span>Continuous integration and deployment</span>
-</li> -->
+    
       </ul> <br>
       <p class="mt-4 text-gray-600"> Deliver great service experiences fast - without the complexity
         of traditional ITSM solutions.</p>
@@ -186,49 +191,166 @@
         can unlock long term value and drive economic growth.
       </p>
       </div>
-      
-      <!-- <div calss="flex justify-center items-center ">
-        <img src="images/Pricing Cards.png" alt="Picture">
-      </div> -->
+      <br> <br>
 
-      <div class="grid grid-rows-1 grid-cols-3">
-        <div class="flex flex-wrap justify-center items-center text-center border-gray-100 rounded-lg shadow-lg p-6 m-4">
-          <h3><b>Starter</b></h3><br><br>
-          <p class="text-gray-600">Great fo personal use for your side projects.</p> <br><br>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-10">
 
-          <h1 class="text-5xl font-extrabold">$49</h1><sub class="text-gray-600">/month</sub> <br><br>
-          <ul>
-            <li>Individual configuration</li>
-            <li>No setup, monthly, or hidden fees</li>
-            <li>Team size: <b>1 developer</b></li>
-            <li>Premium support: <b>6 months</b></li>
-            <li>Free updates: <b>6 months</b></li>
-          </ul>
-          <br>
-          <a href="#" class="rounded-lg bg-purple-600 px-3 py-2 text-sm font-medium text-white hover:bg-purple-700">Get started</a>
+  <div class="flex flex-col items-center text-center border-collapse rounded-lg shadow-lg p-6">
+    <h3 class="text-xl font-bold mb-2">Starter</h3>
+    <p class="text-gray-600 mb-4">Great for personal use for your side projects.</p>
+    <div class="flex items-baseline mb-6">
+      <h1 class="text-5xl font-extrabold">$49</h1>
+      <span class="text-gray-600 ml-1">/month</span>
+    </div>
+    <ul class="text-left space-y-3 mb-6">
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Individual configuration</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>No setup, monthly, or hidden fees</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Team size: <b>1 developer</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Premium support: <b>6 months</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Free updates: <b>6 months</b></span>
+      </li>
+    </ul>
+    <a href="#" class="rounded-lg bg-purple-600 px-6 py-2 text-sm font-medium text-white hover:bg-purple-700">Get started</a>
+  </div>
 
-        </div>
 
-         <div class="flex flex-wrap justify-center items-center text-center border-gray-100 rounded-lg shadow-lg p-6 m-4">
-          <h3><b>Starter</b></h3><br><br>
-          <p class="text-gray-600">Great fo personal use for your side projects.</p> <br><br>
+  <div class="flex flex-col items-center text-center border-collapse rounded-lg shadow-lg p-6">
+    <h3 class="text-xl font-bold mb-2">Company</h3>
+    <p class="text-gray-600 mb-4">Best for large scale users and extended redistribution rights.</p>
+    <div class="flex items-baseline mb-6">
+      <h1 class="text-5xl font-extrabold">$99</h1>
+      <span class="text-gray-600 ml-1">/month</span>
+    </div>
+    <ul class="text-left space-y-3 mb-6">
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Individual configuration</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>No setup, monthly, or hidden fees</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Team size: <b>10 developers</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Premium support: <b>24 months</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Free updates: <b>24 months</b></span>
+      </li>
+    </ul>
+    <a href="#" class="rounded-lg bg-purple-600 px-6 py-2 text-sm font-medium text-white hover:bg-purple-700">Get started</a>
+  </div>
 
-          <h1 class="text-5xl font-extrabold">$49</h1><sub class="text-gray-600">/month</sub> <br><br>
-          <ul>
-            <li>Individual configuration</li>
-            <li>No setup, monthly, or hidden fees</li>
-            <li>Team size: <b>1 developer</b></li>
-            <li>Premium support: <b>6 months</b></li>
-            <li>Free updates: <b>6 months</b></li>
-          </ul>
-          <br>
-          <a href="#" class="rounded-lg bg-purple-600 px-3 py-2 text-sm font-medium text-white hover:bg-purple-700">Get started</a>
+  <div class="flex flex-col items-center text-center border-collapse rounded-lg shadow-lg p-6">
+    <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+    <p class="text-gray-600 mb-4">Best for large scale users and extended redistribution rights.</p>
+    <div class="flex items-baseline mb-6">
+      <h1 class="text-5xl font-extrabold">$499</h1>
+      <span class="text-gray-600 ml-1">/month</span>
+    </div>
+    <ul class="text-left space-y-3 mb-6">
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Individual configuration</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>No setup, monthly, or hidden fees</span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Team size: <b>100+ developers</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Premium support: <b>36 months</b></span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <img class="h-4 w-4" src="images/check.png" alt="check">
+        <span>Free updates: <b>36 months</b></span>
+      </li>
+    </ul>
+    <a href="#" class="rounded-lg bg-purple-600 px-6 py-2 text-sm font-medium text-white hover:bg-purple-700">Get started</a>
+  </div>
+</div>
 
-        </div>
       </div>
     </section>
 
 
+
+    <section class="py-20 bg-gray-100  flex justify-center items-center ">
+      <div class="text-center space-y-4 ">
+        <h3 class="text-4xl font-extrabold ">Start your free trial today </h3>
+        <p class="text-gray-600"> Try Flowbite Platform for 30 days. No credit card required.</p> <br>
+        <a href="#" class="rounded-lg bg-purple-600 px-3 py-2  text-sm font-medium text-white"> Free trail for 30 days</a>
+      
+      </div>
+     <br> <br> <br> <br>
+
+    </section>
+
+
+    <footer class="bg-white m-4">
+      <div class="mx-auto flex  items-center justify-center px-6 py-3 ">
+         <img src="images/logo.png" class="h-8" alt="Logo">
+         <span class="self-center whitespace-nowrap text-xl font-semibold text-gray-900">Landwind</span>
+         
+      </div>
+      <p class="text-gray-600  flex justify-center items-center"> &copy 2022 Flowbite, Inc. All rights reserved. </p>
+      <br> 
+
+      <div class="flex justify-center items-center gap-8 text-gray-600 pb-6">
+        <div class="flex justify-center space-x-6">
+          <a href="#" class="hover:text-blue-400">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a href="#" class="hover:text-blue-400">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+
+           <a href="#" class="hover:text-pink-500">
+            <i class="fab fa-dribbble fa-lg"></i>
+           </a>
+
+          <a href="#" class="hover:text-blue-600">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+        </div>
+        
+      </div>
+
+    </footer>  
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
 
